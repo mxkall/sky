@@ -5,6 +5,7 @@ namespace LaraZeus\Sky;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\Support\Concerns\EvaluatesClosures;
+use LaraZeus\Core\Concerns\HasRouteNamePrefix;
 use LaraZeus\Sky\Filament\Resources\FaqResource;
 use LaraZeus\Sky\Filament\Resources\LibraryResource;
 use LaraZeus\Sky\Filament\Resources\NavigationResource;
@@ -16,6 +17,7 @@ final class SkyPlugin implements Plugin
 {
     use Configuration;
     use EvaluatesClosures;
+    use HasRouteNamePrefix;
 
     public function getId(): string
     {
