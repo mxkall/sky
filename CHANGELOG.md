@@ -2,6 +2,14 @@
 
 All notable changes to `sky` will be documented in this file
 
+## v3.4.14 - 2024-10-02
+
+### What's Changed
+
+* refactor routeNamePrefix to core trait by @atmonshi in https://github.com/lara-zeus/sky/pull/215
+
+**Full Changelog**: https://github.com/lara-zeus/sky/compare/v3.4.13...v3.4.14
+
 ## v3.4.13 - 2024-09-29
 
 ### What's Changed
@@ -210,6 +218,7 @@ in your panel provider you can hide any resource from the side nav
 
 
 
+
 ```
 for more check out the docs:
 https://larazeus.com/docs/sky/v3/getting-started/configuration
@@ -313,6 +322,7 @@ Since [tiptap editor](https://github.com/awcodes/filament-tiptap-editor) still i
 
 
 
+
 ```
 #### What's Changed
 
@@ -382,11 +392,13 @@ Make sure to add this to your config:
 
 
 
+
 ```
 You can copy that class and create your own parser, too, then add it to the array, and Sky will loop them all.
 
 ```I
 Of course, it will be visible only if you install Sky with Bolt :)
+
 
 
 
@@ -450,7 +462,6 @@ Of course, it will be visible only if you install Sky with Bolt :)
 - refactor getNavigationGroup by @atmonshi in https://github.com/lara-zeus/sky/pull/71
 **Full Changelog**: https://github.com/lara-zeus/sky/compare/2.4.0...2.4.1
 ## 2.4.0 - 2023-04-10
-
 ### What's Changed
 
 - Bump dependabot/fetch-metadata from 1.3.5 to 1.3.6 by @dependabot in https://github.com/lara-zeus/sky/pull/65
