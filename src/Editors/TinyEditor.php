@@ -24,7 +24,8 @@ class TinyEditor implements ContentEditor
     public static function render(string $content): string
     {
         if (class_exists(TinyEditorAlias::class)) {
-            return html_entity_decode($content);
+            return str(html_entity_decode($content))
+                ->replace(['prompt(', 'eval(', '&lt;script', '<script'], '');
         }
 
         return $content;
