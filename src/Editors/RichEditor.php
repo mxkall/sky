@@ -23,6 +23,6 @@ class RichEditor implements ContentEditor
     {
         return
             str(html_entity_decode($content))
-                ->replace(['prompt(','eval(','&lt;script','<script'],'');
+                ->replace(['prompt(', 'eval(', '&lt;script', '<script'], '');
     }
 }

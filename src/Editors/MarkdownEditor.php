@@ -24,7 +24,7 @@ class MarkdownEditor implements ContentEditor
         if (class_exists(MarkdownEditorAlias::class)) {
             return (new \Illuminate\Support\HtmlString(
                 str(strip_tags($content))
-                    ->replace(['prompt(','eval(','&lt;script','<script'],'')
+                    ->replace(['prompt(', 'eval(', '&lt;script', '<script'], '')
                     ->markdown()
             ))->toHtml();
         }
