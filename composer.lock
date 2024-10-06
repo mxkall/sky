@@ -2269,16 +2269,16 @@
         },
         {
             "name": "lara-zeus/core",
-            "version": "v3.1.11",
+            "version": "v3.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lara-zeus/core.git",
-                "reference": "c3a6127e0675dada44ba2a394d09cb49ec55c30c"
+                "reference": "8a06819ce82e029d30e449ac4bc4c7f07dd41332"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lara-zeus/core/zipball/c3a6127e0675dada44ba2a394d09cb49ec55c30c",
-                "reference": "c3a6127e0675dada44ba2a394d09cb49ec55c30c",
+                "url": "https://api.github.com/repos/lara-zeus/core/zipball/8a06819ce82e029d30e449ac4bc4c7f07dd41332",
+                "reference": "8a06819ce82e029d30e449ac4bc4c7f07dd41332",
                 "shasum": ""
             },
             "require": {
@@ -2351,7 +2351,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-02T14:32:22+00:00"
+            "time": "2024-10-05T18:44:33+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3751,24 +3751,24 @@
         },
         {
             "name": "nette/schema",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "a6d3a6d1f545f01ef38e60f375d1cf1f4de98188"
+                "reference": "9522dad6211c4d995a01a9ac529da88d0b0ba7b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
-                "reference": "a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
+                "url": "https://api.github.com/repos/nette/schema/zipball/9522dad6211c4d995a01a9ac529da88d0b0ba7b5",
+                "reference": "9522dad6211c4d995a01a9ac529da88d0b0ba7b5",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^4.0",
-                "php": "8.1 - 8.3"
+                "php": "8.1 - 8.4"
             },
             "require-dev": {
-                "nette/tester": "^2.4",
+                "nette/tester": "^2.5.2",
                 "phpstan/phpstan-nette": "^1.0",
                 "tracy/tracy": "^2.8"
             },
@@ -3807,9 +3807,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
-                "source": "https://github.com/nette/schema/tree/v1.3.0"
+                "source": "https://github.com/nette/schema/tree/v1.3.1"
             },
-            "time": "2023-12-11T11:54:22+00:00"
+            "time": "2024-10-05T03:01:50+00:00"
         },
         {
             "name": "nette/utils",
@@ -5368,16 +5368,16 @@
         },
         {
             "name": "spatie/laravel-tags",
-            "version": "4.6.1",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-tags.git",
-                "reference": "73944e8bd7a341269c03959fe063d8714adbe5a6"
+                "reference": "dcbfd689eb76801dbe42d19b223cb24235567681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-tags/zipball/73944e8bd7a341269c03959fe063d8714adbe5a6",
-                "reference": "73944e8bd7a341269c03959fe063d8714adbe5a6",
+                "url": "https://api.github.com/repos/spatie/laravel-tags/zipball/dcbfd689eb76801dbe42d19b223cb24235567681",
+                "reference": "dcbfd689eb76801dbe42d19b223cb24235567681",
                 "shasum": ""
             },
             "require": {
@@ -5426,7 +5426,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-tags/issues",
-                "source": "https://github.com/spatie/laravel-tags/tree/4.6.1"
+                "source": "https://github.com/spatie/laravel-tags/tree/4.7.0"
             },
             "funding": [
                 {
@@ -5434,7 +5434,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-01T12:44:53+00:00"
+            "time": "2024-10-03T15:45:40+00:00"
         },
         {
             "name": "spatie/laravel-translatable",
@@ -9273,16 +9273,16 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v8.27.0",
+            "version": "v8.27.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "8abdce816a467f450ca88a4a451d11eb4f056ed2"
+                "reference": "6b8eea113e3d6c2e276115f4683a5c71d715d702"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/8abdce816a467f450ca88a4a451d11eb4f056ed2",
-                "reference": "8abdce816a467f450ca88a4a451d11eb4f056ed2",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/6b8eea113e3d6c2e276115f4683a5c71d715d702",
+                "reference": "6b8eea113e3d6c2e276115f4683a5c71d715d702",
                 "shasum": ""
             },
             "require": {
@@ -9290,7 +9290,7 @@
                 "fakerphp/faker": "^1.21",
                 "laravel/framework": "^10.48.22",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": "^8.28.1",
+                "orchestra/testbench-core": "^8.28.3",
                 "orchestra/workbench": "^8.10",
                 "php": "^8.1",
                 "phpunit/phpunit": "^9.6 || ^10.1",
@@ -9322,22 +9322,22 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v8.27.0"
+                "source": "https://github.com/orchestral/testbench/tree/v8.27.2"
             },
-            "time": "2024-09-24T05:22:46+00:00"
+            "time": "2024-10-06T13:00:02+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v8.28.1",
+            "version": "v8.28.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "a5ab70e78378363b69220ae5771dabe8c885a25e"
+                "reference": "053c8655ae46225f52e69e6d2c1b2313bdf54611"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/a5ab70e78378363b69220ae5771dabe8c885a25e",
-                "reference": "a5ab70e78378363b69220ae5771dabe8c885a25e",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/053c8655ae46225f52e69e6d2c1b2313bdf54611",
+                "reference": "053c8655ae46225f52e69e6d2c1b2313bdf54611",
                 "shasum": ""
             },
             "require": {
@@ -9417,7 +9417,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-09-24T05:26:51+00:00"
+            "time": "2024-10-06T11:18:11+00:00"
         },
         {
             "name": "orchestra/workbench",
@@ -10485,16 +10485,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.5",
+            "version": "1.12.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "7e6c6cb7cecb0a6254009a1a8a7d54ec99812b17"
+                "reference": "dc4d2f145a88ea7141ae698effd64d9df46527ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/7e6c6cb7cecb0a6254009a1a8a7d54ec99812b17",
-                "reference": "7e6c6cb7cecb0a6254009a1a8a7d54ec99812b17",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc4d2f145a88ea7141ae698effd64d9df46527ae",
+                "reference": "dc4d2f145a88ea7141ae698effd64d9df46527ae",
                 "shasum": ""
             },
             "require": {
@@ -10539,7 +10539,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-09-26T12:45:22+00:00"
+            "time": "2024-10-06T15:03:59+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -11187,21 +11187,21 @@
         },
         {
             "name": "rector/rector",
-            "version": "1.2.5",
+            "version": "1.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "e98aa793ca3fcd17e893cfaf9103ac049775d339"
+                "reference": "6ca85da28159dbd3bb36211c5104b7bc91278e99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/e98aa793ca3fcd17e893cfaf9103ac049775d339",
-                "reference": "e98aa793ca3fcd17e893cfaf9103ac049775d339",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/6ca85da28159dbd3bb36211c5104b7bc91278e99",
+                "reference": "6ca85da28159dbd3bb36211c5104b7bc91278e99",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2|^8.0",
-                "phpstan/phpstan": "^1.12.2"
+                "phpstan/phpstan": "^1.12.5"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -11234,7 +11234,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/1.2.5"
+                "source": "https://github.com/rectorphp/rector/tree/1.2.6"
             },
             "funding": [
                 {
@@ -11242,7 +11242,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-09-08T17:43:24+00:00"
+            "time": "2024-10-03T08:56:44+00:00"
         },
         {
             "name": "sebastian/cli-parser",
