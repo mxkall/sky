@@ -22,7 +22,11 @@ class MarkdownEditor implements ContentEditor
     public static function render(string $content): string
     {
         if (class_exists(MarkdownEditorAlias::class)) {
-            return str($content)->markdown();
+            return (new \Illuminate\Support\HtmlString(
+                str(strip_tags($content))
+                    ->replace(['prompt(','eval(','&lt;script','<script'],'')
+                    ->markdown()
+            ))->toHtml();
         }
 
         return $content;

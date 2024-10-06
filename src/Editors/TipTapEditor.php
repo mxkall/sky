@@ -26,7 +26,11 @@ class TipTapEditor implements ContentEditor
     {
         if (class_exists(\FilamentTiptapEditor\TiptapEditor::class)) {
             // @phpstan-ignore-next-line
-            return tiptap_converter()->asHTML($content);
+            return tiptap_converter()
+                ->asHTML(
+                    str(html_entity_decode($content))
+                        ->replace(['prompt(','eval(','&lt;script','<script'],'')
+                );
         }
 
         return $content;
