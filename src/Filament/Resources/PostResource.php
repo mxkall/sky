@@ -260,6 +260,10 @@ class PostResource extends SkyResource
 
     public static function getNavigationBadge(): ?string
     {
+        if (! SkyPlugin::getNavigationBadgesVisibility(static::class)) {
+            return null;
+        }
+
         return (string) SkyPlugin::get()->getModel('Post')::posts()->count();
     }
 

@@ -22,6 +22,10 @@ class SkyResource extends Resource
 
     public static function getNavigationBadge(): ?string
     {
+        if (! SkyPlugin::getNavigationBadgesVisibility(static::class)) {
+            return null;
+        }
+
         return (string) static::getModel()::query()->count();
     }
 }

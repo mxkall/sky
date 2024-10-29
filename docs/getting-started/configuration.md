@@ -54,6 +54,11 @@ SkyPlugin::make()
     ->hideResources([
         FaqResource::class,
     ])
+
+    // hide/show nav badges
+    ->hideNavigationBadges(resource: LaraZeus\Sky\Resources::CollectionResource)
+    ->showNavigationBadges(resource: LaraZeus\Sky\Resources::CollectionResource)
+
 ```
 
 ## Customize Filament Resources
@@ -64,6 +69,30 @@ you can customize all Sky resources icons and sorting by adding the following co
 PostResource::navigationSort(100);
 PostResource::navigationIcon('heroicon-o-home');
 PostResource::navigationGroup('New Name');
+```
+
+
+### Show or Hide Badges
+
+To show all navigation badges (default)
+```
+    ->showNavigationBadges()
+```
+
+To hide all navigation badges
+```
+    ->hideNavigationBadges()
+```
+
+This will hide only the CollectionResource navigation badge
+```
+    ->hideNavigationBadges(resource: LaraZeus\Sky\Resources::CollectionResource)
+```
+
+This will show only the FormResource navigation badge
+```
+    ->hideNavigationBadges()
+    ->showNavigationBadges(resource: LaraZeus\Sky\Resources::CollectionResource)
 ```
 
 available resources:

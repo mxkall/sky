@@ -6,6 +6,7 @@ use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\Support\Concerns\EvaluatesClosures;
 use LaraZeus\Core\Concerns\HasRouteNamePrefix;
+use LaraZeus\FilamentPluginTools\Concerns\CanDisableBadges;
 use LaraZeus\Sky\Filament\Resources\FaqResource;
 use LaraZeus\Sky\Filament\Resources\LibraryResource;
 use LaraZeus\Sky\Filament\Resources\NavigationResource;
@@ -15,6 +16,7 @@ use LaraZeus\Sky\Filament\Resources\TagResource;
 
 final class SkyPlugin implements Plugin
 {
+    use CanDisableBadges;
     use Configuration;
     use EvaluatesClosures;
     use HasRouteNamePrefix;
